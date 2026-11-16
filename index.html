@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>沈烨 Ye Shen · 海报设计</title>
+<meta name="description" content="沈烨 Ye Shen，来自广东潮州的平面与海报设计师。">
+<meta name="robots" content="noindex">
+<style>
+:root{--red:#b3261e;--ink:#1d1a17;--paper:#f4ede1}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%}
+body{background:var(--paper);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,"PingFang SC","Noto Sans SC",sans-serif;display:flex;flex-direction:column;min-height:100vh;overflow-x:hidden}
+.band{height:14px;background:repeating-linear-gradient(90deg,var(--red) 0 28px,var(--paper) 28px 34px,#d9a441 34px 40px,var(--paper) 40px 46px)}
+main{flex:1;display:grid;grid-template-columns:1fr;align-content:center;padding:8vh 7vw;gap:5vh;position:relative}
+.big{font-size:clamp(88px,22vw,260px);font-weight:900;line-height:.82;letter-spacing:-.04em;color:var(--red)}
+.big span{display:block;color:var(--ink)}
+.en{font-size:clamp(18px,3vw,28px);letter-spacing:.35em;text-transform:uppercase;font-weight:700}
+.line{font-size:clamp(15px,2.2vw,19px);line-height:1.8;max-width:34em}
+.btn{display:inline-block;background:var(--ink);color:var(--paper);text-decoration:none;padding:16px 30px;font-weight:700;letter-spacing:.15em;font-size:16px;border:2px solid var(--ink);transition:.2s}
+.btn:hover{background:var(--red);border-color:var(--red)}
+.acts{display:flex;gap:14px;flex-wrap:wrap}
+.btn.ghost{background:transparent;color:var(--ink)}
+.btn.ghost:hover{color:var(--paper)}
+.mail{font-size:14px;letter-spacing:.08em;margin-top:-3vh}
+.seal{position:absolute;right:7vw;bottom:8vh;width:clamp(64px,10vw,96px);height:clamp(64px,10vw,96px);background:var(--red);color:var(--paper);display:flex;align-items:center;justify-content:center;font-size:clamp(40px,6.5vw,62px);font-family:"STKaiti","KaiTi","Noto Serif SC",serif;border-radius:6px;transform:rotate(-4deg);box-shadow:inset 0 0 0 4px var(--red),inset 0 0 0 7px var(--paper)}
+footer{padding:22px 7vw;font-size:13px;letter-spacing:.1em;display:flex;justify-content:space-between;border-top:2px solid var(--ink)}
+</style>
+</head>
+<body>
+<div class="band"></div>
+<main>
+  <div class="big">沈<span>烨</span></div>
+  <div class="en">Ye Shen · Poster Design</div>
+  <p class="line">来自广东潮州的平面与海报设计师。把潮绣、木雕、嵌瓷与工夫茶的老手艺，放进当代海报的版面里。</p>
+  <div class="acts"><a class="btn" href="https://yeshen-posters.yeshen-design.workers.dev">看作品集 →</a><a class="btn ghost" href="mailto:hi@mail.yeshen.loc.cc">联系我</a></div>
+  <p class="mail">hi@mail.yeshen.loc.cc</p>
+  <div class="seal" aria-label="印章 烨">烨</div>
+</main>
+<footer><span>CHAOZHOU · GUANGDONG</span><span>© 2026 Ye Shen</span></footer>
+</body>
+</html>
